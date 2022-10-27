@@ -1,17 +1,68 @@
-# Welcome to MkDocs
+---
+hide:
+  - footer
+  - navigation
+  - toc
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Bienvenidos
 
-## Commands
+![OpenPyme](/img_index/inicio.png)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---    
+<img src="/img_index/Home_Training_0.jpg" align="right" width="53%">
 
-## Project layout
+## **Manual de usuario**
+En este Manual de usuario, se encuentra información acerca de:    
+Comunicación interna.   
+Contabilidad y finanzas.   
+Ventas.   
+Administración de la cadena de suministros.   
+   
+[Leer más](manual_usuario/indexManualUsuario.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---    
+<img src="/img_index/Home_ConTecnicos.jpg" align="left" width="53%">
+
+## **Conocimientos técnicos**
+En este apartado se encuentra información acerca de:   
+Documentación técnica.   
+Referencia para desarrolladores.   
+Administración de sistemas.      
+    
+[Leer más](conocimientos_tecnicos/indexConocimientosTecnicos.md)
+
+---   
+<img src="/img_index/Home_ElServicio_0.jpg" align="right" width="53%">
+
+## **Operación de servicio (Soporte)**
+La operación de servicios abarca los siguientes procesos:   
+Gestión de incidentes   
+Cumplimiento de la Solicitud   
+Gestión de Acceso   
+Contacto a Soporte   
+
+     
+[Leer más](operacion_servicio/indexOperacionServicio.md)
+
+---   
+<img src="/img_index/Home_Training_0.jpg" align="left" width="53%">
+
+## **Handbook**
+En este apartado se encuentra información acerca de:    
+Direccion de proyectos, como:  
+Capacitación para duales.   
+Competencias de un buen desarrollador.  
+Políticas de operación. Etc   
+
+[Leer más](handbook/indexHandbook.md)
+
+---   
+<img src="/img_index/Home_ConExpress.jpg" align="right" width="53%">
+
+## **Preguntas frecuentes**
+Es una herramienta de apoyo para que el cliente mediante documentos de auto ayuda pueda realizar modificaciones, solucionar problemas, errores o leer documentos de referencia en los cuales encontrara temas de relevancia así como la respuesta a dudas en especifico.   
+    
+[Leer más](preguntas_frecuentes/indexPreguntasFrecuentes.md)
+
+---   
