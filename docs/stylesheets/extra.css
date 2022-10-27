@@ -1,0 +1,10 @@
+:root > * {
+    --md-primary-fg-color:        #085270 ;    
+}
+
+.md-grid {
+    max-width: 89%; 
+}
+[data-md-color-scheme="slate"] {
+    --md-hue: 210; 
+  }
