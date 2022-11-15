@@ -1,3 +1,5 @@
+image: python:3.8-buster
+
 before_script:
   - virtualenv --quiet --python=python3 .
   - source bin/activate
