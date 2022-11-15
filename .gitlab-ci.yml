@@ -1,6 +1,6 @@
 before_script:
-  - virtualenv --quiet --python=python3 .  
-  - source bin/activate 
+  - virtualenv --quiet --python=python3 .
+  - source bin/activate
   - pip install -r requirements.txt
 
 test:
