@@ -1,5 +1,5 @@
 before_script:
-  - virtualenv --quiet --python=python3.6 .
+  - virtualenv --quiet --python=python3 .
   - source bin/activate
   - pip install -r requirements.txt
 
@@ -16,6 +16,9 @@ test:
 pages:
   stage: deploy
   script:
+  - mkdir .public
+  - cp -r * .public
+  - mv .public public
   - mkdocs build --strict --verbose
   artifacts:
     paths:
