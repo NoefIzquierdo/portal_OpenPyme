@@ -4,6 +4,8 @@ before_script:
   - pip install -r requirements.txt
 
 test:
+  tags:
+    - base
   stage: test
   script:
   - mkdocs build --strict --verbose --site-dir test
@@ -14,6 +16,8 @@ test:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
 pages:
+  tags:
+    - base
   stage: deploy
   script:
   - mkdocs build --strict --verbose --site-dir deploy
