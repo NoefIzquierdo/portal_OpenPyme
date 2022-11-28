@@ -2,7 +2,9 @@ before_script:
   - virtualenv --quiet --python=python3 .
   - source bin/activate
 
-pages:
+public pages:
+  tags:
+    - base
   stage: deploy
   script:
     - pip install mkdocs
