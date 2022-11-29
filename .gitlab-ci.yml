@@ -1,17 +1,30 @@
 before_script:
   - virtualenv --quiet --python=python3 .
   - source bin/activate
+  - pip install mkdocs
+  - pip install mkdocs-material
+  - mkdocs build --site-dir public
 
-public pages:
+test:
+  tags:
+    - base
+  stage: test
+  script:
+  - mkdocs build --strict --verbose --site-dir test
+  artifacts:
+    paths:
+    - test
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+
+pages:
   tags:
     - base
   stage: deploy
   script:
-    - pip install mkdocs
-    - pip install mkdocs-material
-    - mkdocs build --site-dir public
+  - mkdocs build --strict --verbose
   artifacts:
     paths:
-      - public
+    - public
   rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
