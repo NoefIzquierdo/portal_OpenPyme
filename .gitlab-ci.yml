@@ -4,7 +4,6 @@ before_script:
   - pip install mkdocs
   - pip install mkdocs-material
   - pip install mkdocs-with-pdf
-  - pip install mkdocs-pdf-export-plugin
   - pip install mkdocs-git-revision-date-localized-plugin
   - pip install mkdocs-git-authors-plugin
   - mkdocs build --site-dir public

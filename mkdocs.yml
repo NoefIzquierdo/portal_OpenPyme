@@ -62,7 +62,6 @@ extra:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-  - pdf-export
   - with-pdf
   - git-authors
 
