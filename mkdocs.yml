@@ -62,9 +62,9 @@ extra:
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-committers:
-      repository: https://gitlab.openpyme.mx/pyerp/portal_openpyme
-      branch: master
+#  - git-committers:
+#      repository: https://gitlab.openpyme.mx/pyerp/portal_openpyme
+#      branch: master
   - git-authors
 
 
