@@ -59,6 +59,15 @@ extra:
       link: https://www.linkedin.com/company/openpyme/mycompany
 
 
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: pyerp/portal_openpyme
+      branch: master
+  - git-authors
+
+
 extra_css:
   - stylesheets/extra.css
 
