@@ -61,7 +61,10 @@ extra:
 
 
 plugins:
-  - git-authors
+  - git-authors:
+      exclude:
+        - index.md
+
   - git-revision-date-localized:
       enable_creation_date: true
 
