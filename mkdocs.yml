@@ -64,8 +64,6 @@ plugins:
   - git-authors:
       exclude:
         - index.md
-  - git-committers:
-    token: 1kdyWC24GgwfGZaihEhW
   - git-revision-date-localized:
       enable_creation_date: true
 
