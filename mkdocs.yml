@@ -36,15 +36,30 @@ theme:
 # menu
 nav:
   - Inicio: index.md
+
   - Manual de usuario:
     - Introducción: manual_usuario/indexManualUsuario.md
     - Administración de cadenas de suministro:
       - Gestión de almacenes: manual_usuario/administracion_cadena_suministros/gestion_almacenes/docs/gestionAlmacenes.md
       - Gestión de compras: manual_usuario/administracion_cadena_suministros/gestion_compras/docs/gestionCompras.md
       - Gestión de costos: manual_usuario/administracion_cadena_suministros/gestion_costos/docs/gestionCostos.md
+  
   - Conocimientos técnicos: conocimientos_tecnicos/indexConocimientosTecnicos.md
+
   - Operación del servicio (Soporte): operacion_servicio/indexOperacionServicio.md
-  - Handbook: handbook/indexHandbook.md
+
+  - Handbook:
+    - Mkdocs:
+      - Instalación de Mkdocs: handbook/mkdocs/instalacion_Mkdocs/docs/instalacionMkdocs.md
+      - Configuración: handbook/mkdocs/configuracion_mkdocs/docs/configuracionMkdocs.md
+      - Usos: handbook/mkdocs/uso_mkdocs/docs/usoMkdocs.md
+    
+    - GitLab: 
+        - Instalación: handbook/gitlab/instalacion_gitlab/docs/instalacionGitlab.md
+        - Configuración: handbook/gitlab/configuracion_gitlab/docs/configuracionGitlab.md
+        - Usos: handbook/gitlab/uso_gitlab/docs/usoGitlab.md
+    - Instalación local del Portal OpenPyme: handbook/mkdocs/instalacion_Mkdocs/docs/localPortalOpen.md    
+     
   - Preguntas frecuentes: preguntas_frecuentes/indexPreguntasFrecuentes.md
 
 
@@ -61,6 +76,7 @@ extra:
 
 
 plugins:
+  - search
   - git-authors:
       exclude:
         - index.md

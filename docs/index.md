@@ -55,7 +55,7 @@ Capacitación para duales.
 Competencias de un buen desarrollador.  
 Políticas de operación. Etc   
 
-[Leer más](./handbook/indexHandbook.md)
+[Leer más](./handbook/mkdocs/instalacion_Mkdocs/docs/instalacionMkdocs.md)
 
 ---   
 <img src="./img_index/Home_ConExpress.jpg" align="right" width="53%">
