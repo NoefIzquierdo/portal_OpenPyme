@@ -16,6 +16,9 @@ theme:
     - navigation.tabs
     - navigation.top
     - search.share
+    - content.tabs.link
+    - content.tooltips
+
 
   palette:
 
@@ -44,7 +47,28 @@ nav:
       - Gestión de compras: manual_usuario/administracion_cadena_suministros/gestion_compras/docs/gestionCompras.md
       - Gestión de costos: manual_usuario/administracion_cadena_suministros/gestion_costos/docs/gestionCostos.md
   
-  - Conocimientos técnicos: conocimientos_tecnicos/indexConocimientosTecnicos.md
+  - Conocimientos técnicos:
+    - Introducción: conocimientos_tecnicos/indexConocimientosTecnicos.md
+    - Rundeck:
+      - Introducción: conocimientos_tecnicos/administracion_sistemas/Rundeck/index_rundeck.md
+      - Instalación:
+        - Instalación de Rundeck: conocimientos_tecnicos/administracion_sistemas/Rundeck/install_rundeck/docs/installRundeck.md
+        - Instalación de Java: conocimientos_tecnicos/administracion_sistemas/Rundeck/install_rundeck/docs/installJava.md
+        - Instalación de PostgreSQL: conocimientos_tecnicos/administracion_sistemas/Rundeck/install_rundeck/docs/installPostgres.md
+
+      - Configuración:
+        - Configuración de PostgreSQL: conocimientos_tecnicos/administracion_sistemas/Rundeck/config_rundeck/docs/configPostgres.md
+        - Configuración de Rundeck: conocimientos_tecnicos/administracion_sistemas/Rundeck/config_rundeck/docs/configRundeck.md
+        - Configuración de SSH Rundeck: conocimientos_tecnicos/administracion_sistemas/Rundeck/config_rundeck/docs/configSSH.md
+
+
+      - Usos de Rundeck:
+        - Clave SSH privada: conocimientos_tecnicos/administracion_sistemas/Rundeck/use_rundeck/docs/useconfigSSHkey.md
+        - Clave SSH pública: conocimientos_tecnicos/administracion_sistemas/Rundeck/use_rundeck/docs/useconfigSSH.md
+        - Proyectos: conocimientos_tecnicos/administracion_sistemas/Rundeck/use_rundeck/docs/useconfigProjects.md
+        - Nodos: conocimientos_tecnicos/administracion_sistemas/Rundeck/use_rundeck/docs/useconfigNodes.md
+        - Trabajos: conocimientos_tecnicos/administracion_sistemas/Rundeck/use_rundeck/docs/useconfigJobs.md
+
 
   - Operación del servicio (Soporte): operacion_servicio/indexOperacionServicio.md
 
@@ -79,7 +103,40 @@ plugins:
         - index.md
   - git-revision-date-localized:
       enable_creation_date: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
 
+
+markdown_extensions:
+  - abbr
+  - footnotes
+  - def_list
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 extra_css:
   - stylesheets/extra.css
