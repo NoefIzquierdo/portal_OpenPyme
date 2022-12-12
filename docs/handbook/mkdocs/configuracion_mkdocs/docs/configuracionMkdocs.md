@@ -1,4 +1,4 @@
-## **Instalar el tema para MkDocs**
+# Instalar el tema para MkDocs
 
 Para instalar un tema ocuparemos el siguiente comando:
 

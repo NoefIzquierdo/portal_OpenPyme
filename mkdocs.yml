@@ -53,11 +53,8 @@ nav:
       - Instalación de Mkdocs: handbook/mkdocs/instalacion_Mkdocs/docs/instalacionMkdocs.md
       - Configuración: handbook/mkdocs/configuracion_mkdocs/docs/configuracionMkdocs.md
       - Usos: handbook/mkdocs/uso_mkdocs/docs/usoMkdocs.md
-    
-    - GitLab: 
-        - Instalación: handbook/gitlab/instalacion_gitlab/docs/instalacionGitlab.md
-        - Configuración: handbook/gitlab/configuracion_gitlab/docs/configuracionGitlab.md
-        - Usos: handbook/gitlab/uso_gitlab/docs/usoGitlab.md
+    - GitLab: handbook/gitlab/instalacion_gitlab/docs/instalacionGitlab.md
+     
     - Instalación local del Portal OpenPyme: handbook/mkdocs/instalacion_Mkdocs/docs/localPortalOpen.md    
      
   - Preguntas frecuentes: preguntas_frecuentes/indexPreguntasFrecuentes.md

@@ -1,3 +1,11 @@
+# Agregar párrafos
+
+Una forma de agregar texto en párrafos es escribiendo el texto y para separarlo en párrafos es dejando una línea en blanco entre una o más líneas de texto, por ejemplo:
+![Parrafo 1](../img/parrafo1.png)
+
+Otra forma  es agregando las etiquetas **< p >** y **< /p >** al principio y al final de cada uno de los bloques de texto.
+![Parrafo 2](../img/parrafo2.png)
+
 ## **Agregar encabezados**
 
 Si queremos agregar un encabezado o un título, se puede realizar colocando el símbolo de numeral seguido del título que queremos mostrar, también se pueden colocar por tamaños, por ejemplo:
@@ -11,14 +19,6 @@ Si queremos agregar un encabezado o un título, se puede realizar colocando el s
 *#### Welcome java*   
 
 ![Encabezado](../img/encabezados.png)
-
-## **Agregar párrafos**
-
-Una forma de agregar texto en párrafos es escribiendo el texto y para separarlo en párrafos es dejando una línea en blanco entre una o más líneas de texto, por ejemplo:
-![Parrafo 1](../img/parrafo1.png)
-
-Otra forma  es agregando las etiquetas **< p >** y **< /p >** al principio y al final de cada uno de los bloques de texto.
-![Parrafo 2](../img/parrafo2.png)
 
 ## **Salto de línea** 
 

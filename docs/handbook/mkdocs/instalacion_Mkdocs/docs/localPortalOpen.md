@@ -20,4 +20,4 @@ mkdocs build
 ```
 mkdocs serve
 ```
-7.- Ir a **localhost:8000** o **http://127.0.0.1:8000/** para observar la interfaz inicial de MkDocs.
+7.- Ir a [localhost:8000](localhost:8000) o [http://127.0.0.1:8000/](http://127.0.0.1:8000/) para observar la interfaz inicial de MkDocs.
