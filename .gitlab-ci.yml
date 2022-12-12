@@ -9,7 +9,7 @@ test:
     - base
   stage: test
   script:
-  - mkdocs build --strict --verbose --site-dir test
+  - mkdocs build --strict --verbose --site-dir --clean test
   artifacts:
     paths:
     - test
