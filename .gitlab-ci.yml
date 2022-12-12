@@ -21,7 +21,7 @@ pages:
     - base
   stage: deploy
   script:
-  - mkdocs build --strict --verbose
+  - mkdocs serve
   artifacts:
     paths:
     - public
