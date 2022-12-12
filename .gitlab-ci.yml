@@ -2,17 +2,17 @@ before_script:
   - virtualenv --quiet --python=python3 .
   - source bin/activate
   - pip install -r requirements.txt
+  - mkdocs build --site-dir public
 
 test:
   tags:
     - base
   stage: test
   script:
-  - mkdocs build --clean --strict --site-dir test
+  - mkdocs build --strict --verbose --site-dir test
   artifacts:
     paths:
     - test
-    expire_in: 5 mins
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
@@ -21,10 +21,9 @@ pages:
     - base
   stage: deploy
   script:
-  - mkdocs build --strict --site-dir public
+  - mkdocs build --strict --verbose
   artifacts:
     paths:
     - public
-    expire_in: 5 mins
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
