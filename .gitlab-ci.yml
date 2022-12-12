@@ -21,7 +21,7 @@ pages:
     - base
   stage: deploy
   script:
-  - mkdocs build --clean --strict --site-dir public
+  - mkdocs build --strict --site-dir public
   artifacts:
     paths:
     - public
